@@ -3,3 +3,5 @@ var div = arr.map(a => a/2);
 var check  = div.filter(a => a >= 5);
 var result = check.reduce((val , a) => val+a , 0);
 console.log(result);
+
+console.log(check);
