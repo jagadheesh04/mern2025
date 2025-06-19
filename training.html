@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            flex-direction: column;
+        }
+        .child {
+            border: 2px solid black;
+            padding: 10px;
+            background-color: lightpink;
+            width: 300px;
+            height: 300px;
+        }
+        .container{
+            grid-template-rows: 1/5 1/5 1/5 1/5 1/5 ;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child header"></div>
+        <div class="child "></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    
+    </div>
+</body>
+</html>
