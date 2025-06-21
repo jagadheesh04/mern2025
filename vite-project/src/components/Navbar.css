@@ -1,0 +1,16 @@
+.navbar{
+    display:flex;
+    background-color:blueviolet;
+    padding: 20px;
+    justify-content: space-between;
+}
+.Link{
+    list-style: none;
+    background-color: antiquewhite;
+    padding: 20px;
+    border: 2px solid burlywood;
+    border-radius: 2px;
+}
+.Link:hover{
+    
+}

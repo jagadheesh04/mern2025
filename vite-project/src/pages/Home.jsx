@@ -1,9 +1,14 @@
 import React from 'react'
 
-const Home = () => {
+const home = ({items,users}) => {
   return (
-    <div>welcome to home paggeeeeeeee</div>
+    <div>
+      <ol>
+        {items.map((fruit) => (<li>{fruit}</li>))}
+      </ol>
+      
+    </div>
   )
 }
 
-export default Home
+export default home
